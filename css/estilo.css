@@ -5,13 +5,36 @@
     text-align: center;
 }
 h1{
-    padding:5px 10px;
+    font-size: large;
 }
 p{
-    padding:2.5px 10px;
     font-family: Helvetica;
 }
 img{
    width: 128px;
    height: auto;
+   padding-top:10px;
+   background-color: #606060;
+}
+.conteudo{
+    width: 480px;
+    padding: 2.5px 10px;
+    background-color: #606060;
+    border-radius: 20px;
+}
+
+.container{
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+div p{
+    background-color: #606060;
+}
+div h1{
+    background-color: #606060;
 }
