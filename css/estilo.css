@@ -5,31 +5,30 @@
     text-align: center;
 }
 h1{
-    font-size: large;
+    font-size: x-large;
 }
 p{
     font-family: Helvetica;
+    font-size: large;
 }
 img{
    width: 128px;
    height: auto;
    padding-top:10px;
    background-color: #606060;
+   border-radius: 20px 20px 20px 20px;
 }
 .conteudo{
-    width: 480px;
+    width: 20%;
     padding: 2.5px 10px;
     background-color: #606060;
     border-radius: 20px;
 }
 
 .container{
-    position: absolute;
-    left: 0;
-    right:0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div p{
