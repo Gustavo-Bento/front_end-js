@@ -1,0 +1,25 @@
+#tabela{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela th{
+    padding:12px 0px 12px 0px;
+    text-align: left;
+    background-color: #2a768d;
+    color:white;
+}
+
+#tabela td, #tabela th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabela th:nth-child(even){
+    background-color: #f0f0f0;
+}
+#tabela th:hover{
+    background-color: #606060;
+    color:#ddd;
+}
