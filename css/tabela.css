@@ -5,7 +5,7 @@
 }
 
 #tabela th{
-    padding:12px 0px 12px 0px;
+    padding:12px 0px;
     text-align: left;
     background-color: #2a768d;
     color:white;
@@ -20,6 +20,11 @@
     background-color: #404040;
 }
 #tabela th:hover{
-    background-color: #606060;
-    color:#ddd;
+    background-color: #385184;
+}
+#tabela tr:nth-child(even):hover{
+    background-color: #2a2a2a;
+}
+#tabela tr:hover{
+    background-color:#808080;
 }
