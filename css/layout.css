@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10;
+    right: 10%;
+}
+section{
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10;
+}
+footer{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+    right: 10%;
+}
+article{
+    float: left;
+    width:75%;
+    height: 80%;
+    background-color: green;
+}
+nav{
+    float: left;
+    width: 25%;
+    right: 80%;
+    padding: 20px;
+    background-color: aqua;
+}
