@@ -16,8 +16,8 @@
     padding: 8px;
 }
 
-#tabela th:nth-child(even){
-    background-color: #f0f0f0;
+#tabela tr:nth-child(even){
+    background-color: #404040;
 }
 #tabela th:hover{
     background-color: #606060;

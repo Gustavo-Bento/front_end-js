@@ -19,13 +19,13 @@ p{
 img{
    width: 128px;
    height: auto;
-   padding-top:10px;
 }
 
 .conteudo{
     width: 480px;
     padding: 2.5px 10px;
     text-align: center;
+    padding: 15px;
 }
 
 .container{
@@ -43,8 +43,4 @@ img{
 
 #arredondar{
     border-radius: 20px 20px 20px 20px;
-}
-
-a{
-    text-decoration: none;
 }
