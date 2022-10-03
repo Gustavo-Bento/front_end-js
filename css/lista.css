@@ -5,3 +5,6 @@ li{
 li a{
     padding: 0px 100px;
 }
+article ul li{
+    text-align: left;
+}
