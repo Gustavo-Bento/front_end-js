@@ -13,12 +13,16 @@ h1{
 
 p{
     font-family: Helvetica;
-    font-size: large;
 }
 
 img{
    width: 128px;
    height: auto;
+}
+
+article p{
+    text-align: left;
+    margin-left: 25;
 }
 
 .conteudo{
@@ -41,7 +45,15 @@ img{
 .cinza-escuro{
     background-color: #404040;
 }
+.cinza-claro{
+    background-color: #ddd;
+    color:black;
+    text-align: left;
+    margin-left: 25;
+    margin-right: 25;
+    padding-left: 10;
 
+}
 #arredondar{
     border-radius: 20px 20px 20px 20px;
 }

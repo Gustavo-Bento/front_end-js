@@ -1,13 +1,25 @@
-
 .botao{
+    margin: 0;
+    font-size: 14pt;
+}
+
+
+.botao, .botao-lista{
     text-decoration: none;
-    margin: 3;
     padding: 5px 15px;
     background-color: #08ba94;
     color: #fff;
     border-radius: 20px;
-    font-size: 14pt;
 }
+.botao-lista{
+    margin-left: 5;
+    font-size: 12pt;
+}
+
 .botao:hover{
+    background-color: #05998d;
+}
+
+.botao-lista:hover{ 
     background-color: #05998d;
 }
