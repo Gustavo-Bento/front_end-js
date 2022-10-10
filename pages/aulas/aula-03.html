@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="../../css/lista.css" type="text/css">
     <link rel="stylesheet" href="../../css/bootstrap/style.css" type="text/css">
     <script src="../../js/operadores-artimeticos.js"></script>
-    <script scr="../../js/confirmado.js"></script>
-</head>
+    <script src="../../js/bootstrap/program.js"></script>
 
 <body>
     <header>
@@ -55,19 +54,67 @@
                 lateral correspondentes.</p>
             <button onclick='document.getElementById("altera").innerHTML = "Olá Mundo! Em JavaScript 👍"'>OK</button>
             <h2 class="cinza-escuro ">Operadores Aritiméticos JavaScript</h2>
-            <h3 class="cinza-claro">01 - Realizando Adição com Javascript</h3>
-            <p>Exemplo de uma soma de 2 + 2 = <strong id="resultado-adicao">Mostrando o resultado... </strong></p>
-            <a class="botao" id="confirmado-adicao" href="#" onclick='adicao()'>Resultado</a>
-            <h3 class="cinza-claro">02 - Realizando Subtração com Javascript</h3>
-            <p>Exemplo de uma soma de 4 - 2 = <strong id="resultado-subtracao">Mostrando o resultado... </strong></p>
-            <a class="botao" id="confirmado-subtracao" href="#" onclick='subtracao()'>Resultado</a>
-            <h3 class="cinza-claro">03 - Realizando Multiplicação com Javascript</h3>
-            <p>Exemplo de uma soma de 3 * 3 = <strong id="resultado-multiplicacao">Mostrando o resultado... </strong>
-            </p>
-            <a class="botao" id="confirmado-multiplicacao" href="#" onclick='multiplicacao()'>Resultado</a>
-            <h3 class="cinza-claro">04 - Realizando Divisão com Javascript</h3>
-            <p>Exemplo de uma soma de 8 / 2 = <strong id="resultado-divisao">Mostrando o resultado... </strong></p>
-            <a class="botao" id="confirmado-divisao" href="#" onclick='divisao()'>Resultado</a>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="p-2">
+                        <h3 class="cinza-claro">01 - Realizando Adição com Javascript</h3>
+                        <p>Exemplo de uma adição de 2 + 2 = <strong id="resultado-adicao">Mostrando o resultado...
+                            </strong>
+                        </p>
+                        <a class="botao" id="confirmado-adicao" href="#" onclick='adicao()'>Resultado</a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class="cinza-claro">02 - Realizando Subtração com Javascript</h3>
+                        <p>Exemplo de uma subtração de 4 - 2 = <strong id="resultado-subtracao">Mostrando o resultado...
+                            </strong></p>
+                        <a class="botao" id="confirmado-subtracao" href="#" onclick='subtracao()'>Resultado</a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class="cinza-claro">03 - Realizando Multiplicação com Javascript</h3>
+                        <p>Exemplo de uma multiplicação de 3 * 3 = <strong id="resultado-multiplicacao">Mostrando o resultado...
+                            </strong>
+                        </p>
+                        <a class="botao" id="confirmado-multiplicacao" href="#" onclick='multiplicacao()'>Resultado</a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class="cinza-claro">04 - Realizando Divisão com Javascript</h3>
+                        <p>Exemplo de uma divisão de 8 / 2 = <strong id="resultado-divisao">Mostrando o resultado...
+                            </strong>
+                        </p>
+                        <a class="botao" id="confirmado-divisao" href="#" onclick='divisao()'>Resultado</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="p-2">
+                        <h3 class="cinza-claro">05 - Realizando Exponênciação com Javascript</h3>
+                        <p>Exemplo de uma exponênciação de 2 ** 3 = <strong id="resultado-expo">Mostrando o resultado...
+                            </strong>
+                        </p>
+                        <a class="botao" id="confirmado-expo" href="#" onclick='exponenciacao()'>Resultado</a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class="cinza-claro">06 - Realizando Resto com Javascript</h3>
+                        <p>Exemplo de um resto de 5 / 2 = <strong id="resultado-modo">Mostrando o resultado...
+                            </strong></p>
+                        <a class="botao" id="confirmado-modo" href="#" onclick='resto()'>Resultado</a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class="cinza-claro">07 - Realizando Incrementação com Javascript</h3>
+                        <p>Exemplo de uma incrementação de 5 = <strong id="resultado-inc">Mostrando o resultado...
+                            </strong>
+                        </p>
+                        <a class="botao" id="confirmado-inc" href="#" onclick='incrementacao()'>Resultado</a>
+                    </div>
+                    <div class="p-2">
+                        <h3 class="cinza-claro">08 - Realizando Decrementação com Javascript</h3>
+                        <p>Exemplo de uma decrementação de 5 = <strong id="resultado-dec">Mostrando o resultado...
+                            </strong>
+                        </p>
+                        <a class="botao" id="confirmado-dec" href="#" onclick='decrementacao()'>Resultado</a>
+                    </div>
+                </div>
+            </div>
+        </article>
     </section>
     <footer>
         <h3>Isso aqui é o footer</h3>
