@@ -1,39 +1,52 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Prof Gustavo Ferreira">
     <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 01">
     <title>Aula 02 - Seletores CSS 3</title>
-    <link rel="stylesheet" href="../../css/estilo.css" type="text/css"> 
+    <link rel="stylesheet" href="../../css/estilo.css" type="text/css">
     <link rel="stylesheet" href="../../css/botao.css" type="text/css">
-    <link rel="stylesheet" href="../../css/layout.css" type="text/css">
     <link rel="stylesheet" href="../../css/lista.css" type="text/css">
-</head>
+    <link rel="stylesheet" href="../../css/bootstrap/style.css" type="text/css">
+    <script src="../../js/bootstrap/program.js"></script>
 
 <body>
-   <header>
-       <img src="../../img/logo.jpg" alt="Logo Microcamp" id="arredondar">
-       <h1>Aula 02 - Seletores CSS 3</h1>
-   </header>
-   <section>
-       <nav>
-            <ul>
-                <li>
+    <header class="">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav container mt-3">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="http://microcamp.com">
+                            <img src="../../img/logo.jpg" style="width: 60px;" alt="Logo Microcamp" id="arredondar">
+                        </a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <h3>Aula 02 - Seletores CSS 3</h3>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="row">
+        <nav class="col-sm-3 bg-purple">
+            <ul class="navbar-nav mt-3">
+                <li class="nav-item">
                     <a href="aula-01.html">
-                        <div class="botao-lista ">
+                        <div class="botao-lista">
                             Aula 01 - Git com HTML e CSS
-                        </div>  
+                        </div>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="aula-02.html">
                         <div class="botao-lista">
                             Aula 02 - Seletores CSS 3
                         </div>
-                    </a> 
+                    </a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="aula-03.html">
                         <div class="botao-lista">
                             Aula 03 - Introdução a JS
@@ -42,34 +55,62 @@
                 </li>
             </ul>
         </nav>
-        <article>
-            <h2 class="cinza-escuro">Seletores CSS 3</h2>
-            <p>Seletores CSS são usados ​​para "encontrar" (ou selecionar) os elementos HTML que você deseja estilizar.</p>
-            <p>Podemos dividir os seletores CSS em cinco categorias:</p>
-            <ul>
-                <li>Seletores simples (selecione elementos com base no nome, id, classe)</li>
-                <li>Seletores de combinação (selecione elementos com base em um relacionamento específico entre eles)</li>
-                <li>Seletores de pseudo-classe (selecionar elementos com base em um determinado estado)</li>
-                <li>Seletores de pseudo-elementos (selecione e estilize uma parte de um elemento)</li>
-                <li>Seletores de atributo (selecione elementos com base em um atributo ou valor de atributo)</li>
-            </ul>
-            <h2 class="cinza-escuro ">Tipos de Seletores CSS 3</h2>
-            <h3 class="cinza-claro">01 - Seletor de Elemento CSS</h3>
-            <p>O seletor de elemento seleciona elementos HTML com base no nome do elemento.</p>
-            <br>
-            <h3 class="cinza-claro">02 - Seletor de Classe CSS</h3>
-            <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.</p>
-            <p>Para selecionar elementos com uma classe específica, escreva um caractere ponto (.), seguido do nome da classe.</p>
-            <p>Você também pode especificar que apenas elementos HTML específicos devem ser afetados por uma classe.</p>
-            <p>Elementos HTML também podem se referir a mais de uma classe.</p>
-            <br>
-            
+        <article class="col-sm-9">
+            <h3 class="cinza-escuro text-white p-2 text-center m-3">Seletores CSS 3</h2>
+                <div class="card m-3">
+                    <div class="card-body">
+                        <p>Seletores CSS são usados ​​para "encontrar" (ou selecionar) os elementos HTML que você deseja
+                            estilizar.
+                        </p>
+                        <p>Podemos dividir os seletores CSS em cinco categorias:</p>
+                        <ul>
+                            <li>Seletores simples (selecione elementos com base no nome, id, classe)</li>
+                            <li>Seletores de combinação (selecione elementos com base em um relacionamento específico
+                                entre eles)
+                            </li>
+                            <li>Seletores de pseudo-classe (selecionar elementos com base em um determinado estado)</li>
+                            <li>Seletores de pseudo-elementos (selecione e estilize uma parte de um elemento)</li>
+                            <li>Seletores de atributo (selecione elementos com base em um atributo ou valor de atributo)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h3 class="cinza-escuro text-white p-2 text-center m-3">Tipos de Seletores CSS 3</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4 class="cinza-claro p-1 text-center m-3">01 - Seletor de Elemento CSS</h4>
+                        <div class="card m-3">
+                            <div class="card-body">
+                                <p>O seletor de elemento seleciona elementos HTML com base no nome do elemento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="cinza-claro p-1 text-center m-3">02 - Seletor de Classe CSS</h4>
+                        <div class="card m-3">
+                            <div class="card-body">
+                                <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.
+                                </p>
+                                <p>Para selecionar elementos com uma classe específica, escreva um caractere ponto (.),
+                                    seguido
+                                    do nome
+                                    da
+                                    classe.</p>
+                                <p>Você também pode especificar que apenas elementos HTML específicos devem ser afetados
+                                    por uma
+                                    classe.
+                                </p>
+                                <p>Elementos HTML também podem se referir a mais de uma classe.</p>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </article>
     </section>
-   <footer>
-       <h3>Isso aqui é o footer</h3>
-   </footer>
+    <footer class="text-center p-2 mt-5 bg-dark text-white">
+        <p>Desenvolvido por Gustavo Ferreira</p>
+    </footer>
 </body>
 
 </html>
