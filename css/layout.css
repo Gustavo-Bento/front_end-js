@@ -28,13 +28,7 @@ article{
     height: 80%;
     background-color: #606060;
 }
-nav{
-    float: left;
-    width: 25%;
-    height: 80%;
-    padding: 0;
-    background-color: #4b297f;
-}
+
 nav ul{
     list-style-type: none;
     padding: 0;

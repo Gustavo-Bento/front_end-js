@@ -8,7 +8,6 @@
     <title>Aula 03 - Introdução ao JavaScript</title>
     <link rel="stylesheet" href="../../css/estilo.css" type="text/css">
     <link rel="stylesheet" href="../../css/botao.css" type="text/css">
-    <link rel="stylesheet" href="../../css/layout.css" type="text/css">
     <link rel="stylesheet" href="../../css/lista.css" type="text/css">
     <link rel="stylesheet" href="../../css/bootstrap/style.css" type="text/css">
     <script src="../../js/operadores-artimeticos.js"></script>
@@ -18,31 +17,37 @@
     <header class="">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="http://microcamp.com">
-                    <img src="../../img/logo.jpg" alt="Logo Microcamp" id="arredondar">
-                </a>
-                <h1 class="navbar-brand">Aula 03 - Introdução ao JavaScript</h1>
+                <ul class="navbar-nav container mt-3">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="http://microcamp.com">
+                            <img src="../../img/logo.jpg" style="width: 60px;" alt="Logo Microcamp" id="arredondar">
+                        </a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <h3>03 - Introdução ao JavaScript</h3>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
-    <section>
-        <nav>
-            <ul>
-                <li>
+    <section class="row">
+        <nav class="col-sm-3 bg-purple">
+            <ul class="navbar-nav mt-3">
+                <li class="nav-item">
                     <a href="aula-01.html">
                         <div class="botao-lista">
                             Aula 01 - Git com HTML e CSS
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="aula-02.html">
                         <div class="botao-lista">
                             Aula 02 - Seletores CSS 3
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="aula-03.html">
                         <div class="botao-lista">
                             Aula 03 - Introdução a JS
@@ -51,18 +56,35 @@
                 </li>
             </ul>
         </nav>
-        <article>
-            <p id="altera">O vídeo fornece uma maneira poderosa de ajudá-lo a provar seu argumento. Ao clicar em Vídeo
-                Online, você pode colar o código de inserção do vídeo que deseja adicionar. Você também pode digitar uma
-                palavra-chave para pesquisar online o vídeo mais adequado ao seu documento. Para dar ao documento uma
-                aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que
-                se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra
-                lateral correspondentes.</p>
-            <button onclick='document.getElementById("altera").innerHTML = "Olá Mundo! Em JavaScript 👍"'>OK</button>
-            <h2 class="cinza-escuro ">Operadores Aritiméticos JavaScript</h2>
-            <div class="row">
+        <article class="col-sm-9">
+            <h3 class="cinza-escuro text-white p-2 text-center m-3">
+                Exemplo de Alteração em JavaScript
+            </h3>
+            <div class="container m-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p id="altera">O vídeo fornece uma maneira poderosa de ajudá-lo a provar seu argumento. Ao
+                            clicar em Vídeo
+                            Online, você pode colar o código de inserção do vídeo que deseja adicionar. Você também pode
+                            digitar uma
+                            palavra-chave para pesquisar online o vídeo mais adequado ao seu documento. Para dar ao
+                            documento uma
+                            aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa
+                            de texto que
+                            se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho
+                            e uma barra
+                            lateral correspondentes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center m-3">
+                <a class="botao" href="#"
+                onclick='document.getElementById("altera").innerHTML = "Olá Mundo! Em JavaScript 👍"'>OK</a>
+            </div>
+            <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadores Aritiméticos JavaScript</h3>
+            <div class="row m-6">
                 <div class="col-sm-6">
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">01 - Realizando Adição com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -72,9 +94,11 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-adicao" href="#" onclick='adicao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-adicao" href="#" onclick='adicao()'>Resultado</a>
+                        </div>
                     </div>
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">02 - Realizando Subtração com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -84,9 +108,11 @@
                                     </strong></p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-subtracao" href="#" onclick='subtracao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-subtracao" href="#" onclick='subtracao()'>Resultado</a>
+                        </div>
                     </div>
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">03 - Realizando Multiplicação com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -96,9 +122,12 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-multiplicacao" href="#" onclick='multiplicacao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-multiplicacao" href="#"
+                                onclick='multiplicacao()'>Resultado</a>
+                        </div>
                     </div>
-                    <div class="p-2 mt-2 bg-white">
+                    <div class="p-2 mt-2 bg-white m-3">
                         <h3 class="">04 - Realizando Divisão com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -108,11 +137,13 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-divisao" href="#" onclick='divisao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-divisao" href="#" onclick='divisao()'>Resultado</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">05 - Realizando Exponênciação com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -123,9 +154,11 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-expo" href="#" onclick='exponenciacao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-expo" href="#" onclick='exponenciacao()'>Resultado</a>
+                        </div>
                     </div>
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">06 - Realizando Resto com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -134,9 +167,11 @@
                                     </strong></p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-modo" href="#" onclick='resto()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-modo" href="#" onclick='resto()'>Resultado</a>
+                        </div>
                     </div>
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">07 - Realizando Incrementação com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -145,9 +180,11 @@
                                     </strong></p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-inc" href="#" onclick='incrementacao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-inc" href="#" onclick='incrementacao()'>Resultado</a>
+                        </div>
                     </div>
-                    <div class="p-2 mt-3 bg-white">
+                    <div class="p-2 mt-3 bg-white m-3">
                         <h3 class="">08 - Realizando Decrementação com Javascript</h3>
                         <div class="card">
                             <div class="card-body">
@@ -157,14 +194,16 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="botao" id="confirmado-dec" href="#" onclick='decrementacao()'>Resultado</a>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-dec" href="#" onclick='decrementacao()'>Resultado</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
     </section>
-    <footer>
-        <h3>Isso aqui é o footer</h3>
+    <footer class="text-center p-2 mt-5 bg-dark text-white">
+        <p>Desenvolvido por Gustavo Ferreira</p>
     </footer>
 </body>
 
