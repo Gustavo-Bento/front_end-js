@@ -13,6 +13,8 @@
     <link rel="icon" href="../../img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../../js/bootstrap/program.js"></script>
+    <script src="../../js/operadores-comparativos.js"></script>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -24,7 +26,7 @@
                         </a>
                     </li>
                     <li class="nav-item text-white">
-                        <h4>Aula 04 - Implementando BootStrap</h4>
+                        <p>Aula 04 - Implementando BootStrap</p>
                     </li>
                 </ul>
             </div>
@@ -71,121 +73,96 @@
             </ul>
         </nav>
         <article class="col-lg-9">
-            <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadores Aritiméticos JavaScript</h3>
+            <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadores Comparativos JavaScript</h3>
             <div class="row m-3">
                 <div class="col-lg-6">
                     <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">01 - Realizando Adição com Javascript</h4>
+                        <p class="cinza-claro p-2 m-3">01 - Realizando Comparação com Javascript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p class="">Exemplo de uma adição de 2 + 2 = <strong id="resultado-adicao">Mostrando o
+                                <p class="">Exemplo de uma comparação de 2 == 2 = <strong id="resultado-igual">Mostrando
+                                        o
                                         resultado...
                                     </strong>
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
-                            <a class="botao" id="confirmado-adicao" href="#" onclick='adicao()'>Resultado</a>
+                            <a class="botao" id="confirmado-igual" href="#" onclick='igual()'>Resultado</a>
                         </div>
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">02 - Realizando Subtração com Javascript</h4>
+                        <p class="cinza-claro p-2 m-3">02 - Realizando Diferença com Javascript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p class="">Exemplo de uma subtração de 4 - 2 = <strong
-                                        id="resultado-subtracao">Mostrando o
+                                <p class="">Exemplo de uma diferença de 4 != 2 = <strong
+                                        id="resultado-diferente">Mostrando o
                                         resultado...
                                     </strong></p>
                             </div>
                         </div>
                         <div class="text-center">
-                            <a class="botao" id="confirmado-subtracao" href="#" onclick='subtracao()'>Resultado</a>
+                            <a class="botao" id="confirmado-diferente" href="#" onclick='diferente()'>Resultado</a>
                         </div>
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">03 - Realizando Multiplicação com Javascript</h4>
+                        <p class="cinza-claro p-2 m-3">03 - Realizando Maior com Javascript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p class="">Exemplo de uma multiplicação de 3 * 3 = <strong
-                                        id="resultado-multiplicacao">Mostrando o resultado...
+                                <p class="">Exemplo de uma comparação maior de 3 > 1 = <strong
+                                        id="resultado-maior">Mostrando o resultado...
                                     </strong>
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
-                            <a class="botao" id="confirmado-multiplicacao" href="#"
-                                onclick='multiplicacao()'>Resultado</a>
-                        </div>
-                    </div>
-                    <div class="p-2 mt-2 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">04 - Realizando Divisão com Javascript</h4>
-                        <div class="card m-3">
-                            <div class="card-body">
-                                <p class="">Exemplo de uma divisão de 8 / 2 = <strong id="resultado-divisao">Mostrando o
-                                        resultado...
-                                    </strong>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-divisao" href="#" onclick='divisao()'>Resultado</a>
+                            <a class="botao" id="confirmado-maior" href="#" onclick='maior()'>Resultado</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">05 - Realizando Exponênciação com Javascript</h4>
+                    <div class="p-2 mt-2 bg-white m-3">
+                        <p class="cinza-claro p-2 m-3">04 - Realizando Menor com Javascript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p class="">Exemplo de uma exponênciação de 2 ** 3 = <strong
-                                        id="resultado-expo">Mostrando o
+                                <p class="">Exemplo de uma comparação menor de 2 < 9=<strong id="resultado-menor">
+                                        Mostrando o
+                                        resultado...
+                                        </strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a class="botao" id="confirmado-menor" href="#" onclick='menor()'>Resultado</a>
+                        </div>
+                    </div>
+                    <div class="p-2 mt-3 bg-white m-3">
+                        <p class="cinza-claro p-2 m-3">05 - Realizando Maior Igual com Javascript</p>
+                        <div class="card m-3">
+                            <div class="card-body">
+                                <p class="">Exemplo de uma comparação maior ou igual de 3 >= 1 = <strong
+                                        id="resultado-maiorIgual">Mostrando o
                                         resultado...
                                     </strong>
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
-                            <a class="botao" id="confirmado-expo" href="#" onclick='exponenciacao()'>Resultado</a>
+                            <a class="botao" id="confirmado-maiorIgual" href="#" onclick='maiorIgual()'>Resultado</a>
                         </div>
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">06 - Realizando Resto com Javascript</h4>
+                        <p class="cinza-claro p-2 m-3">06 - Realizando Menor Igual com Javascript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p class="">Exemplo de um resto de 5 / 2 = <strong id="resultado-modo">Mostrando o
+                                <p class="">Exemplo de uma comparação menor de 2 < 9=<strong id="resultado-menorIgual">
+                                        Mostrando o
                                         resultado...
-                                    </strong></p>
+                                        </strong></p>
                             </div>
                         </div>
                         <div class="text-center">
-                            <a class="botao" id="confirmado-modo" href="#" onclick='resto()'>Resultado</a>
-                        </div>
-                    </div>
-                    <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">07 - Realizando Incrementação com Javascript</h4>
-                        <div class="card m-3">
-                            <div class="card-body">
-                                <p class="">Exemplo de uma incrementação de 5 = <strong id="resultado-inc">Mostrando o
-                                        resultado...
-                                    </strong></p>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-inc" href="#" onclick='incrementacao()'>Resultado</a>
-                        </div>
-                    </div>
-                    <div class="p-2 mt-3 bg-white m-3">
-                        <h4 class="cinza-claro p-2 m-3">08 - Realizando Decrementação com Javascript</h4>
-                        <div class="card m-3">
-                            <div class="card-body">
-                                <p class="">Exemplo de uma decrementação de 5 = <strong id="resultado-dec">Mostrando o
-                                        resultado...
-                                    </strong>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-dec" href="#" onclick='decrementacao()'>Resultado</a>
+                            <a class="botao" id="confirmado-menorIgual" href="#" onclick='menorIgual()'>Resultado</a>
                         </div>
                     </div>
                 </div>
