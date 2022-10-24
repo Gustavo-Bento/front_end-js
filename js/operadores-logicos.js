@@ -13,7 +13,7 @@ function and(){
     document.getElementById("conf-and").innerHTML = "Resultado ✔"
 }
 
-function-or(){
+function or(){
     var x = 5
     var y = 3
     var z = 2
