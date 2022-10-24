@@ -17,7 +17,7 @@ function atSub() {
     document.getElementById("conf-atSub").innerHTML = "Resultado ✔"
 }
 
-function atMulti() {
+function atMult() {
     var x = 2
     var y = 2
     let resultado = x *= y
