@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div>
@@ -11,12 +13,12 @@ export default function Home() {
         <link rel="icon" href="/icon.png" type="image/x-icon" />
         <div className="container">
           <div className="conteudo cinza" id="arredondar">
-            <a href="microcamp.com.br" className="cinza">
+            <Link href="microcamp.com.br" className="cinza">
               <img className="cinza" id="arredondar" src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
-            </a>
+            </Link>
             <h1 className="cinza">Seja bem vindo!</h1>
             <p className="cinza-escuro" id="altera">Clique em começar para aprender! 👇</p>
-            <a className="botao" href="pages/aulas.js">Começar</a>
+            <Link className="botao" href="/pages/aulas.js">Começar</Link>
           </div>
         </div>
       </div>
