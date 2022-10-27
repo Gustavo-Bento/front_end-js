@@ -30,21 +30,21 @@ export default function Aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link className={StyleBotao.botao} href="/aulas/aula-01">01</Link>
+                    <Link className={StyleBotao.botao} href="aulas/aula-01">01</Link>
                   </td>
                   <td>HTML</td>
                   <td>Git com HTML e CSS</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={StyleBotao.botao} href="/aulas/aula-02">02</Link>
+                    <Link className={StyleBotao.botao} href="aulas/aula-02">02</Link>
                   </td>
                   <td>CSS3</td>
                   <td>Seletores CSS 3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={StyleBotao.botao} href="/aulas/aula-03">03</Link>
+                    <Link className={StyleBotao.botao} href="aulas/aula-03">03</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Introdução ao JavaScript</td>
