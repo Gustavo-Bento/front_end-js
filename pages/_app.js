@@ -3,7 +3,7 @@ import '../styles/estilo.css'
 import '../styles/layout.css'
 import '../styles/lista.css'
 import '../styles/tabela-clara.css'
-import '../style/tabela.css'
+import '../styles/tabela.css'
 import '../styles/bootstrap/font-awesome.css'
 import '../styles/bootstrap/style.css'
 
