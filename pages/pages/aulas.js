@@ -1,7 +1,4 @@
 import Link from 'next/link'
-import StyleEstilo from '../../styles/estilo.css'
-import StyleBotao from '../../styles/botao.css'
-import StyleTabela from '../../styles/tabela.css'
 
 export default function Aulas() {
     return (

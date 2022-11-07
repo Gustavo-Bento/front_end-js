@@ -1,8 +1,4 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/Image'
-import StyleEstilo from '../styles/estilo.css'
-import StyleBotao from '../styles/botao.css'
 
 export default function Home() {
   return (
