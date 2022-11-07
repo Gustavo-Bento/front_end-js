@@ -1,4 +1,6 @@
+import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/Image'
 import StyleEstilo from '../styles/estilo.css'
 import StyleBotao from '../styles/botao.css'
 
@@ -10,16 +12,17 @@ export default function Home() {
         <meta name="author" content="Prof Gustavo Ferreira" />
         <meta name="descripion" content="Página inicial do curso de desenvolvimento web." />
         <title>Curso de Desenvolvimento Web</title>
-        <link rel="stylesheet" href="css/botao.css" type="text/css" />
+        <link rel="stylesheet" href="/botao.css" type="text/css"/>
+        <link rel="stylesheet" href="/estilo.css" type="text/css"/>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
-        <div className={StyleEstilo.container}>
-          <div className={[StyleEstilo.conteudo, StyleEstilo.cinza].join(" ")} id="arredondar">
-            <Link href="microcamp.com.br" className={StyleEstilo.cinza}>
-              <img className={StyleEstilo.cinza} id="arredondar" src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
+        <div className="container">
+          <div className="conteudo, cinza" id="arredondar">
+            <Link href="microcamp.com.br" className="cinza">
+              <img className="cinza" id="arredondar" src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
             </Link>
-            <h1 className={StyleEstilo.cinza}>Seja bem vindo!</h1>
-            <p className={StyleEstilo.cinza-escuro} id="altera">Clique em começar para aprender! 👇</p>
-            <Link className={StyleBotao.botao} href="/pages/aulas.js">Começar</Link>
+            <h1 className="cinza">Seja bem vindo!</h1>
+            <p className="cinza-escuro" id="altera">Clique em começar para aprender! 👇</p>
+            <Link className="botao" href="/pages/aulas.js">Começar</Link>
           </div>
         </div>
       </div>
