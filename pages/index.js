@@ -8,8 +8,8 @@ export default function Home() {
         <meta name="author" content="Prof Gustavo Ferreira" />
         <meta name="descripion" content="Página inicial do curso de desenvolvimento web." />
         <title>Curso de Desenvolvimento Web</title>
-        <link rel="stylesheet" href="/botao.css" type="text/css"/>
-        <link rel="stylesheet" href="/estilo.css" type="text/css"/>
+        <link rel="stylesheet" href="../styles/botao.css" type="text/css"/>
+        <link rel="stylesheet" href="../styles/estilo.css" type="text/css"/>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
         <div className="container">
           <div className="conteudo, cinza" id="arredondar">

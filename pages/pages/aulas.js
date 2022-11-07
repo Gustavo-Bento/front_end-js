@@ -8,9 +8,9 @@ export default function Aulas() {
         <meta name="author" content="Prof Gustavo Ferreira" />
         <meta name="descripion" content="Playlist das aulas de programação web." />
         <title>Curso de Desenvolvimento Web</title>
-        <link rel="stylesheet" href="/estilo.css" type="text/css" />
-        <link rel="stylesheet" href="/tabela.css" type="text/css" />
-        <link rel="stylesheet" href="/botao.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/estilo.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/tabela.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/botao.css" type="text/css" />
         <link rel="icon" href="/icon.png" type="image/x-icon" />
         <div className="container">
           <div className="cinza container" id="arredondar">
