@@ -11,13 +11,13 @@ export default function Home() {
         <meta name="descripion" content="Página inicial do curso de desenvolvimento web." />
         <title>Curso de Desenvolvimento Web</title>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
-        <div className={styleEstilo.container}>
+        <div className={[styleEstilo.container, styleEstilo.body].join(" ")}>
           <div className={[styleEstilo.conteudo, styleEstilo.cinza, styleEstilo.arredondar].join(" ")}>
             <Link href="microcamp.com.br" className={styleEstilo.cinza}>
-              <img className={[styleEstilo.cinza, styleEstilo.arredondar].join(" ")} src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
+              <img className={[styleEstilo.cinza, styleEstilo.arredondar,styleEstilo.img].join(" ")} src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
             </Link>
-            <h1 className={styleEstilo.cinza} >Seja bem vindo!</h1>
-            <p className={styleEstilo.cinza-escuro}  id="altera">Clique em começar para aprender! 👇</p>
+            <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")} >Seja bem vindo!</h1>
+            <p className={[styleEstilo.cinza-escuro, styleEstilo.p].join(" ")}  id="altera">Clique em começar para aprender! 👇</p>
             <Link className={styleBotao.botao} href="/pages/aulas.js">Começar</Link>
           </div>
         </div>
