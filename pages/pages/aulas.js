@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import styleBotao from '../styles/botao.module.css'
-import styleEstilo from '../styles/estilo.module.css'
-import styleTabela from '../styles/tabela.module.css'
+import styleBotao from '../../styles/botao.module.css'
+import styleEstilo from '../../styles/estilo.module.css'
+import styleTabela from '../../styles/tabela.module.css'
 
 export default function Aulas() {
     return (
@@ -18,7 +18,7 @@ export default function Aulas() {
               <img src="/logo.jpg" alt="Logo Microcamp" className={[styleEstilo.img, styleEstilo.cinza, styleEstilo.arredondar]}/>
             </Link>
             <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")}>Bem vindo ao Curso de Programação! 💻</h1>
-            <p className={[styleEstilo.cinza-escuro, styleEstilo.p].join(" ")}>Clique na aula que deseja:</p>
+            <p className={[styleEstilo.cinzaEscuro, styleEstilo.p].join(" ")}>Clique na aula que deseja:</p>
             <table className={styleTabela.tabela}>
               <tbody><tr>
                   <th>Aula</th>
@@ -27,42 +27,42 @@ export default function Aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="aulas/aula-01">01</Link>
+                    <Link className={styleBotao.botao} href="aulas/aula01">01</Link>
                   </td>
                   <td>HTML</td>
                   <td>Git com HTML e CSS</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="aulas/aula-02">02</Link>
+                    <Link className={styleBotao.botao} href="aulas/aula02">02</Link>
                   </td>
                   <td>CSS3</td>
                   <td>Seletores CSS 3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="aulas/aula-03">03</Link>
+                    <Link className={styleBotao.botao} href="aulas/aula03">03</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Introdução ao JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/aulas/aula-04" className={styleBotao.botao}>04</Link>
+                    <Link href="/aulas/aula04" className={styleBotao.botao}>04</Link>
                   </td>
                   <td>BootStrap</td>
                   <td>Implementando Bootstrap</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/aulas/aula-05" className={styleBotao.botao}>05</Link>
+                    <Link href="/aulas/aula05" className={styleBotao.botao}>05</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Operadores em JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/aulas/aula-06" className={styleBotao.botao}>06</Link>
+                    <Link href="/aulas/aula06" className={styleBotao.botao}>06</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Portas Lógicas em JavaScript</td>
