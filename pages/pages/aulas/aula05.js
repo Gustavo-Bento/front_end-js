@@ -1,9 +1,10 @@
+import Link from 'next/link'
 import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
 import styleTab from '../../../styles/tabela-clara.module.css'
 
-export default function aula05(){
+export default function aula01(){
     return(
         <div>
         <meta charSet="utf-8" />
@@ -14,69 +15,85 @@ export default function aula05(){
         <link rel="icon" href="/icon.png" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header>
-          <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div className="container-fluid">
-              <ul className="navbar-nav container">
-                <li className="nav-item">
-                  <a className="navbar-brand" href="http://microcamp.com">
-                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" id="arredondar" />
-                  </a>
+          /**navbar navbar-expand-sm bg-dark navbar-dark */
+          <nav className="">
+            /**container-fluid */
+            <div className="">
+              /**navbar-nav container */
+              <ul className="">
+                /**nav-item */
+                <li className="">
+                  /**navbar-brand */
+                  <Link className="" href="http://microcamp.com">
+                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
+                  </Link>
                 </li>
-                <li className="nav-item text-white">
+                /**nav-item text-white */
+                <li className="">
                   <h4>Aula 05 - Operadores em JavaScript</h4>
                 </li>
               </ul>
             </div>
           </nav>
         </header>
-        <section className="row">
-          <nav className="col-lg-3 bg-purple">
-            <ul className="navbar-nav m-3">
-              <li className="nav-item">
-                <a href="aula01">
+        /**row*/
+        <section className="">
+          /**col-lg-3 bg-purple*/
+          <nav className={styleLista.nav}>
+            /**navbar-nav m-3 */
+            <ul className="">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <Link href="/aula01">
                   <div className={styleBotao.botaoLista}>
                     Aula 01 - Git com HTML e CSS
                   </div>
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="aula02">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <Link href="/aula02">
                   <div className={styleBotao.botaoLista}>
                     Aula 02 - Seletores CSS 3
                   </div>
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="aula03">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <Link href="/aula03">
                   <div className={styleBotao.botaoLista}>
                     Aula 03 - Introdução ao JavaScript
                   </div>
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="aula04">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <Link href="/aula04">
                   <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
                   </div>
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="aula05">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <Link href="/aula05">
                   <div className={styleBotao.botaoLista}>
                     Aula 05 - Operadores em JavaScript
                   </div>
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a href="aula06">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <Link href="/aula06">
                   <div className={styleBotao.botaoLista}>
                     Aula 06 - Portas Lógicas em JavaScript
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
-          <article className="col-lg-9">
+          /**col-lg-9 */
+          <article className={styleLista.article}>
 
           </article>
         </section>

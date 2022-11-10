@@ -27,21 +27,21 @@ export default function aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="aulas/aula01">01</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula01">01</Link>
                   </td>
                   <td>HTML</td>
                   <td>Git com HTML e CSS</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="aulas/aula02">02</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula02">02</Link>
                   </td>
                   <td>CSS3</td>
                   <td>Seletores CSS 3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="aulas/aula03">03</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula03">03</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Introdução ao JavaScript</td>
