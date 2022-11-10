@@ -54,6 +54,6 @@ article p{
     padding-left: 10;
 
 }
-#arredondar{
+.arredondar{
     border-radius: 20px 20px 20px 20px;
 }
