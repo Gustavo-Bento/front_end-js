@@ -44,7 +44,7 @@ export default function aula04(){
             <ul className="">
               /**nav-item */
               <li className={styleLista.li}>
-                <Link href="/aula01">
+                <Link href="/pages/aulas//aula01">
                   <div className={styleBotao.botaoLista}>
                     Aula 01 - Git com HTML e CSS
                   </div>
@@ -52,7 +52,7 @@ export default function aula04(){
               </li>
               /**nav-item */
               <li className={styleLista.li}>
-                <Link href="/aula02">
+                <Link href="/pages/aulas//aula02">
                   <div className={styleBotao.botaoLista}>
                     Aula 02 - Seletores CSS 3
                   </div>
@@ -60,7 +60,7 @@ export default function aula04(){
               </li>
               /**nav-item */
               <li className={styleLista.li}>
-                <Link href="/aula03">
+                <Link href="/pages/aulas//aula03">
                   <div className={styleBotao.botaoLista}>
                     Aula 03 - Introdução ao JavaScript
                   </div>
@@ -68,7 +68,7 @@ export default function aula04(){
               </li>
               /**nav-item */
               <li className={styleLista.li}>
-                <Link href="/aula04">
+                <Link href="/pages/aulas//aula04">
                   <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
                   </div>
@@ -76,7 +76,7 @@ export default function aula04(){
               </li>
               /**nav-item */
               <li className={styleLista.li}>
-                <Link href="/aula05">
+                <Link href="/pages/aulas//aula05">
                   <div className={styleBotao.botaoLista}>
                     Aula 05 - Operadores em JavaScript
                   </div>
@@ -84,7 +84,7 @@ export default function aula04(){
               </li>
               /**nav-item */
               <li className={styleLista.li}>
-                <Link href="/aula06">
+                <Link href="/pages/aulas//aula06">
                   <div className={styleBotao.botaoLista}>
                     Aula 06 - Portas Lógicas em JavaScript
                   </div>
