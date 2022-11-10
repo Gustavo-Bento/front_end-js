@@ -34,42 +34,42 @@ export default function Aula04(){
             <ul className="navbar-nav m-3">
               <li className="nav-item">
                 <a href="aula01">
-                  <div className="botao-lista">
+                  <div className={styleBotao.botaoLista}>
                     Aula 01 - Git com HTML e CSS
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula02">
-                  <div className="botao-lista">
+                  <div className={styleBotao.botaoLista}>
                     Aula 02 - Seletores CSS 3
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula03">
-                  <div className="botao-lista">
+                  <div className={styleBotao.botaoLista}>
                     Aula 03 - Introdução ao JavaScript
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula04">
-                  <div className="botao-lista">
+                  <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula05">
-                  <div className="botao-lista">
+                  <div className={styleBotao.botaoLista}>
                     Aula 05 - Operadores em JavaScript
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula06">
-                  <div className="botao-lista">
+                  <div className={styleBotao.botaoLista}>
                     Aula 06 - Portas Lógicas em JavaScript
                   </div>
                 </a>

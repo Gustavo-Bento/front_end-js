@@ -4,14 +4,14 @@
 }
 
 
-.botao, .botao-lista{
+.botao, .botaoLista{
     text-decoration: none;
     padding: 5px 15px;
     background-color: #08ba94;
     color: #fff;
     border-radius: 20px;
 }
-.botao-lista{
+.botaoLista{
     margin-left: 5;
     font-size: 12pt;
 }
@@ -20,6 +20,6 @@
     background-color: #05998d;
 }
 
-.botao-lista:hover{ 
+.botaoLista:hover{ 
     background-color: #05998d;
 }
