@@ -3,7 +3,7 @@ import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
 import styleTab from '../../../styles/tabela-clara.module.css'
 
-export default function Aula03(){
+export default function aula03(){
     return(
         <div>
         <meta charSet="utf-8" />

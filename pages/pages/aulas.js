@@ -3,7 +3,7 @@ import styleBotao from '../../styles/botao.module.css'
 import styleEstilo from '../../styles/estilo.module.css'
 import styleTabela from '../../styles/tabela.module.css'
 
-export default function Aulas() {
+export default function aulas() {
     return (
         <div>
         <meta charSet="utf-8" />
