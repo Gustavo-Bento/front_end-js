@@ -2,6 +2,7 @@ import Link from 'next/link'
 import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
+import styleBoot from 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css'
 import styleTab from '../../../styles/tabela-clara.module.css'
 
 export default function aula01(){
@@ -13,37 +14,36 @@ export default function aula01(){
         <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 06" />
         <title>Aula 01 - Git com HTML e CSS</title>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header>
           
-          <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+          <nav className={[styleBoot.navbar, styleBoot.navbar-expand-sm, styleBoot.bg-dark, styleBoot.navbar-dark].join(" ")}>
     
-            <div className="container-fluid">
+            <div className={styleBoot.container-fluid}>
       
-              <ul className="navbar-nav container">
+              <ul className={[styleBoot.navbar-nav, styleBoot.container].join(" ")}>
       
-                <li className="nav-item ">
+                <li className={styleBoot.nav-item} >
           
-                  <Link className="navbar-brand" href="http://microcamp.com">
+                  <Link className={styleBoot.navbar-brand} href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
         
-                <li className="nav-item text-white">
+                <li className={[styleBoot.nav-item, styleBoot.text-white].join(" ")}>
                   <h4>Aula 01 - Git com HTML e CSS</h4>
                 </li>
               </ul>
             </div>
           </nav>
         </header>
-        <section className="row">
+        <section className={styleBoot.row}>
 
-          <nav className={[styleLista.nav,'col-lg-3', 'bg-purple'].join(" ")}>
+          <nav className={[styleLista.nav,styleBoot.col-lg-3, bg-purple].join(" ")}>
   
-            <ul className="navbar-nav m-3">
+            <ul className={[styleBoot.navbar-nav, styleBoot.m-3].join(" ")}>
     
-              <li className={[styleLista.li,'nav-item'].join(" ")}>
+              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula01">
                   <div className={styleBotao.botaoLista}>
                     Aula 01 - Git com HTML e CSS
@@ -51,7 +51,7 @@ export default function aula01(){
                 </Link>
               </li>
       
-              <li className={[styleLista.li,nav-item].join(" ")}>
+              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula02">
                   <div className={styleBotao.botaoLista}>
                     Aula 02 - Seletores CSS 3
@@ -59,7 +59,7 @@ export default function aula01(){
                 </Link>
               </li>
       
-              <li className={[styleLista.li,'nav-item'].join(" ")}>
+              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula03">
                   <div className={styleBotao.botaoLista}>
                     Aula 03 - Introdução ao JavaScript
@@ -67,7 +67,7 @@ export default function aula01(){
                 </Link>
               </li>
       
-              <li className={[styleLista.li,'nav-item'].join(" ")}>
+              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula04">
                   <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
@@ -75,7 +75,7 @@ export default function aula01(){
                 </Link>
               </li>
       
-              <li className={[styleLista.li,'nav-item'].join(" ")}>
+              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula05">
                   <div className={styleBotao.botaoLista}>
                     Aula 05 - Operadores em JavaScript
@@ -83,7 +83,7 @@ export default function aula01(){
                 </Link>
               </li>
       
-              <li className={[styleLista.li,'nav-item'].join(" ")}>
+              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula06">
                   <div className={styleBotao.botaoLista}>
                     Aula 06 - Portas Lógicas em JavaScript
@@ -93,11 +93,11 @@ export default function aula01(){
             </ul>
           </nav>
 
-          <article className={[styleLista.article,'col-lg-9 '].join(" ")}>
+          <article className={[styleLista.article, styleBoot.col-lg-9].join(" ")}>
 
           </article>
         </section>
-    <footer className="text-center p-2 bg-dark text-white">
+    <footer className={[styleBoot.text-center, styleBoot.p-2, styleBoot.bg-dark, styleBoot.text-white].join(" ")}>
   <p>Desenvolvido por Gustavo Ferreira</p>
 </footer>
 </div>
