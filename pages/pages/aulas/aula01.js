@@ -32,23 +32,23 @@ export default function aula01(){
           </nav>
         </header>
         <section className="row">
-            <nav className="col-lg-3 bg-purple {styleLista.nav}">
+            <nav className={[col-lg-3, bg-purple, styleLista.nav].join(" ")}>
               <ul className="navbar-nav m-3">
-                  <li className="nav-item {styleLista.li}">
+                  <li className= {[nav-item, styleLista.li].join(" ")}>
                     <Link href="/pages/aulas//aula01">
                       <div className={styleBotao.botaoLista}>
                         Aula 01 - Git com HTML e CSS
                       </div>
                     </Link>
                   </li>
-                  <li className="nav-item {styleLista.li}">
+                  <li className= {[nav-item, styleLista.li].join(" ")}>
                     <Link href="/pages/aulas//aula02">
                       <div className={styleBotao.botaoLista}>
                         Aula 02 - Seletores CSS 3
                       </div>
                     </Link>
                   </li>
-                <li className="nav-item {styleLista.li}">
+                  <li className= {[nav-item, styleLista.li].join(" ")}>
                     <Link href="/pages/aulas//aula03">
                       <div className={styleBotao.botaoLista}>
                         Aula 03 - Introdução ao JavaScript
@@ -56,21 +56,21 @@ export default function aula01(){
                     </Link>
                   </li>
                
-                  <li className="nav-item {styleLista.li}">
+                  <li className= {[nav-item, styleLista.li].join(" ")}>
                     <Link href="/pages/aulas//aula04">
                       <div className={styleBotao.botaoLista}>
                         Aula 04 - Implementando BootStrap
                       </div>
                     </Link>
                   </li>
-                <li className="nav-item {styleLista.li}">
+                  <li className= {[nav-item, styleLista.li].join(" ")}>
                     <Link href="/pages/aulas//aula05">
                       <div className={styleBotao.botaoLista}>
                         Aula 05 - Operadores em JavaScript
                       </div>
                     </Link>
                   </li>
-                <li className="nav-item {styleLista.li}">
+                  <li className= {[nav-item, styleLista.li].join(" ")}>
                     <Link href="/pages/aulas//aula06">
                       <div className={styleBotao.botaoLista}>
                         Aula 06 - Portas Lógicas em JavaScript
@@ -79,7 +79,7 @@ export default function aula01(){
                   </li>
               </ul>
             </nav>
-            <article className="col-lg-9 {styleLista.article}">
+            <article className={[col-lg-9, styleLista.article].join(" ")}>
 
             </article>
         </section>
