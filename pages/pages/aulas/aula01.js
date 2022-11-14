@@ -18,18 +18,18 @@ export default function aula01(){
         <header>
           
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-            /** */
+    
             <div className="container-fluid">
-              /** */
+      
               <ul className="navbar-nav container">
-                /***/
+      
                 <li className="nav-item ">
-                  /** */
+          
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                /** */
+        
                 <li className="nav-item text-white">
                   <h4>Aula 01 - Git com HTML e CSS</h4>
                 </li>
@@ -37,54 +37,53 @@ export default function aula01(){
             </div>
           </nav>
         </header>
-        /***/
         <section className="row">
-          /**col-lg-3 bg-purple*/
-          <nav className={styleLista.nav}>
-            /***/
+
+          <nav className={[styleLista.nav,'col-lg-3', 'bg-purple'].join(" ")}>
+  
             <ul className="navbar-nav m-3">
-              /**nav-item */
-              <li className={styleLista.li}>
+    
+              <li className={[styleLista.li,'nav-item'].join(" ")}>
                 <Link href="/pages/aulas//aula01">
                   <div className={styleBotao.botaoLista}>
                     Aula 01 - Git com HTML e CSS
                   </div>
                 </Link>
               </li>
-              /**nav-item */
-              <li className={styleLista.li}>
+      
+              <li className={[styleLista.li,nav-item].join(" ")}>
                 <Link href="/pages/aulas//aula02">
                   <div className={styleBotao.botaoLista}>
                     Aula 02 - Seletores CSS 3
                   </div>
                 </Link>
               </li>
-              /**nav-item */
-              <li className={styleLista.li}>
+      
+              <li className={[styleLista.li,'nav-item'].join(" ")}>
                 <Link href="/pages/aulas//aula03">
                   <div className={styleBotao.botaoLista}>
                     Aula 03 - Introdução ao JavaScript
                   </div>
                 </Link>
               </li>
-              /**nav-item */
-              <li className={styleLista.li}>
+      
+              <li className={[styleLista.li,'nav-item'].join(" ")}>
                 <Link href="/pages/aulas//aula04">
                   <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
                   </div>
                 </Link>
               </li>
-              /**nav-item */
-              <li className={styleLista.li}>
+      
+              <li className={[styleLista.li,'nav-item'].join(" ")}>
                 <Link href="/pages/aulas//aula05">
                   <div className={styleBotao.botaoLista}>
                     Aula 05 - Operadores em JavaScript
                   </div>
                 </Link>
               </li>
-              /**nav-item */
-              <li className={styleLista.li}>
+      
+              <li className={[styleLista.li,'nav-item'].join(" ")}>
                 <Link href="/pages/aulas//aula06">
                   <div className={styleBotao.botaoLista}>
                     Aula 06 - Portas Lógicas em JavaScript
@@ -93,8 +92,8 @@ export default function aula01(){
               </li>
             </ul>
           </nav>
-          /**col-lg-9 */
-          <article className={styleLista.article}>
+
+          <article className={[styleLista.article,'col-lg-9 '].join(" ")}>
 
           </article>
         </section>
