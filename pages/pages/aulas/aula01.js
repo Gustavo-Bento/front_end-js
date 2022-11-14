@@ -13,35 +13,36 @@ export default function aula01(){
         <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 06" />
         <title>Aula 01 - Git com HTML e CSS</title>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header>
-          /**navbar navbar-expand-sm bg-dark navbar-dark */
-          <nav className="">
-            /**container-fluid */
-            <div className="">
-              /**navbar-nav container */
-              <ul className="">
-                /**nav-item */
-                <li className="">
-                  /**navbar-brand */
-                  <Link className="" href="http://microcamp.com">
+          
+          <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+            /** */
+            <div className="container-fluid">
+              /** */
+              <ul className="navbar-nav container">
+                /***/
+                <li className="nav-item ">
+                  /** */
+                  <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                /**nav-item text-white */
-                <li className="">
+                /** */
+                <li className="nav-item text-white">
                   <h4>Aula 01 - Git com HTML e CSS</h4>
                 </li>
               </ul>
             </div>
           </nav>
         </header>
-        /**row*/
-        <section className="">
+        /***/
+        <section className="row">
           /**col-lg-3 bg-purple*/
           <nav className={styleLista.nav}>
-            /**navbar-nav m-3 */
-            <ul className="">
+            /***/
+            <ul className="navbar-nav m-3">
               /**nav-item */
               <li className={styleLista.li}>
                 <Link href="/pages/aulas//aula01">
