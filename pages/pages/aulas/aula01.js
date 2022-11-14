@@ -18,7 +18,7 @@ export default function aula01(){
         <header>
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
-              <ul className="navbar-nav container ">
+              <ul className="navbar-nav container">
                 <li className="nav-item">
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
@@ -32,9 +32,7 @@ export default function aula01(){
           </nav>
         </header>
         <section className="row">
-          <div className="col-lg-3 bg-purple">
-            <nav className={styleLista.nav}>
-              /** */
+            <nav className="col-lg-3 bg-purple {styleLista.nav}">
               <ul className="navbar-nav m-3">
                 <div className="nav-item">
                   <li className={styleLista.li}>
@@ -92,7 +90,6 @@ export default function aula01(){
                 </div>
               </ul>
             </nav>
-          </div>
           <div className="col-lg-9">
             <article className={styleLista.article}>
 
