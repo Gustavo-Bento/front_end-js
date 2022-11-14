@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
-import styleBoot from 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css'
+import styleBoot from 'bootstrap/dist/css/bootstrap.min.css'
 import styleTab from '../../../styles/tabela-clara.module.css'
 
 export default function aula01(){
