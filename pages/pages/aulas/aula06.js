@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
-import styleTab from '../../../styles/tabela-clara.module.css'
+import styleTab from '../../../styles/tabelaClara.module.css'
 
 export default function aula06(){
     return(
@@ -160,7 +160,7 @@ export default function aula06(){
                         <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna verdadeiro somente quando todas as entradas
                           forem verdadeiras. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
                         <div className="container">
-                          <table className={styleTab.tabela-clara}>
+                          <table className={styleTab.tabelaClara}>
                             <tbody><tr>
                                 <th>
                                   Entrada A
