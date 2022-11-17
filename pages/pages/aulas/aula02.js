@@ -93,7 +93,63 @@ export default function aula02(){
           </div>
           <div className="col-lg-9">
             <article className={styleLista.article}>
-
+            <div className={styleEstilo.cinzaEscuro}>
+              <h4 className="text-white p-2 text-center m-3">Seletores CSS 3</h4>
+            </div>
+            <div className="card m-3">
+              <div className="card-body">
+                <p>Seletores CSS são usados para "encontrar" (ou selecionar) os elementos HTML que você deseja
+                  estilizar.
+                </p>
+                <p>Podemos dividir os seletores CSS em cinco categorias:</p>
+                <ul>
+                  <li>Seletores simples (selecione elementos com base no nome, id, classe)</li>
+                  <li>Seletores de combinação (selecione elementos com base em um relacionamento específico
+                    entre eles)
+                  </li>
+                  <li>Seletores de pseudo-classe (selecionar elementos com base em um determinado estado)</li>
+                  <li>Seletores de pseudo-elementos (selecione e estilize uma parte de um elemento)</li>
+                  <li>Seletores de atributo (selecione elementos com base em um atributo ou valor de atributo)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={styleEstilo.cinzaEscuro}>
+              <h4 className="text-white p-2 text-center m-3">Tipos de Seletores CSS 3</h4>
+            </div>
+            <div className="row">
+              <div className="col-lg-6">
+                <div className={styleEstilo.cinzaClaro}>
+                  <p className="p-1 text-center m-3">01 - Seletor de Elemento CSS</p>
+                </div>
+                <div className="card m-3">
+                  <div className="card-body">
+                    <p>O seletor de elemento seleciona elementos HTML com base no nome do elemento.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className={styleEstilo.cinzaClaro}>
+                  <p className="p-1 text-center m-3">02 - Seletor de Classe CSS</p>
+                </div>
+                <div className="card m-3">
+                  <div className="card-body">
+                    <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.
+                    </p>
+                    <p>Para selecionar elementos com uma classe específica, escreva um caractere ponto (.),
+                      seguido
+                      do nome
+                      da
+                      classe.</p>
+                    <p>Você também pode especificar que apenas elementos HTML específicos devem ser afetados
+                      por uma
+                      classe.
+                    </p>
+                    <p>Elementos HTML também podem se referir a mais de uma classe.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             </article>
           </div>
         </section>
