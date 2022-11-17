@@ -93,11 +93,11 @@ export default function aula01(){
           </div>
           <div className="col-lg-9">
             <article className={styleLista.article}>
-              <div className={styleEstilo.cinzaEscuro}>
-                <h3 className="text-white p-2 text-center m-3">HTML 5</h3>
-              </div>
               <div className="card m-3">
                 <div className="card-body">
+                  <div className={styleEstilo.cinzaEscuro}>
+                    <h3 className="text-white p-2 text-center m-3">HTML 5</h3>
+                  </div>
                   <ul>
                     <li>HTML significa Hyper Text Markup Language</li>
                     <li>HTML é a linguagem de marcação padrão para criar páginas da Web</li>
@@ -109,11 +109,12 @@ export default function aula01(){
                   </ul>
                 </div>
               </div>
-              <div className={styleEstilo.cinzaEscuro}>
-                <h3 className="text-white p-2 text-center m-3">CSS 3</h3>
-              </div>
+              
               <div className="card m-3">
                 <div className="card-body">
+                  <div className={styleEstilo.cinzaEscuro}>
+                    <h3 className="text-white p-2 text-center m-3">CSS 3</h3>
+                  </div>
                   <ul>
                     <li>CSS significa Cascading Style Sheets</li>
                     <li>CSS descreve como os elementos HTML devem ser exibidos na tela, papel ou em outra mídia</li>
@@ -123,11 +124,11 @@ export default function aula01(){
                   </ul>
                 </div>
               </div>
-              <div className={styleEstilo.cinzaEscuro}>
-                <h3 className="text-white p-2 text-center m-3">GIT</h3>
-              </div>
               <div className="card m-3">
                 <div className="card-body">
+                  <div className={styleEstilo.cinzaEscuro}>
+                    <h3 className="text-white p-2 text-center m-3">GIT</h3>
+                  </div>
                   <ul>
                     <li>Git é um sistema de controle de versão.</li>
                     <li>O Git ajuda você a acompanhar as alterações de código.</li>

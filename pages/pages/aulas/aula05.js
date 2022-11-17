@@ -15,6 +15,7 @@ export default function aula05(){
         <link rel="icon" href="/icon.png" type="image/x-icon" />
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src="../../../js/operadores-aritméticos.js"></script>
         <header>
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
@@ -94,11 +95,15 @@ export default function aula05(){
           </div>
           <div className="col-lg-9">
             <article className={styleLista.article}>
-            <h3 className="cinza-escuro text-center text-white p-2 m-3">Operadores Aritiméticos JavaScript</h3>
+              <div className={styleEstilo.cinzaEscuro}>
+              <h3 className="text-center text-white p-2 m-3">Operadores Aritiméticos JavaScript</h3>
+              </div>
               <div className="row m-3">
                 <div className="col-lg-6">
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">01 - Realizando Adição com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">01 - Realizando Adição com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma adição de 2 + 2 = <strong id="resultado-adicao">Mostrando o
@@ -108,11 +113,13 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-adicao" href="#" onclick="adicao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-adicao" href="#" onclick="adicao()">Resultado</a>
                     </div>
                   </div>
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">02 - Realizando Subtração com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">02 - Realizando Subtração com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma subtração de 4 - 2 = <strong id="resultado-subtracao">Mostrando o
@@ -121,11 +128,13 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-subtracao" href="#" onclick="subtracao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-subtracao" href="#" onclick="subtracao()">Resultado</a>
                     </div>
                   </div>
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">03 - Realizando Multiplicação com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">03 - Realizando Multiplicação com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma multiplicação de 3 * 3 = <strong id="resultado-multiplicacao">Mostrando o resultado...
@@ -134,11 +143,13 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-multiplicacao" href="#" onclick="multiplicacao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-multiplicacao" href="#" onclick="multiplicacao()">Resultado</a>
                     </div>
                   </div>
                   <div className="p-2 mt-2 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">04 - Realizando Divisão com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className=" p-2 m-3">04 - Realizando Divisão com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma divisão de 8 / 2 = <strong id="resultado-divisao">Mostrando o
@@ -148,13 +159,15 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-divisao" href="#" onclick="divisao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-divisao" href="#" onclick="divisao()">Resultado</a>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">05 - Realizando Exponênciação com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">05 - Realizando Exponênciação com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma exponênciação de 2 ** 3 = <strong id="resultado-expo">Mostrando o
@@ -164,11 +177,13 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-expo" href="#" onclick="exponenciacao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-expo" href="#" onclick="exponenciacao()">Resultado</a>
                     </div>
                   </div>
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">06 - Realizando Resto com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">06 - Realizando Resto com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de um resto de 5 / 2 = <strong id="resultado-modo">Mostrando o
@@ -177,11 +192,13 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-modo" href="#" onclick="resto()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-modo" href="#" onclick="resto()">Resultado</a>
                     </div>
                   </div>
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">07 - Realizando Incrementação com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">07 - Realizando Incrementação com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma incrementação de 5 = <strong id="resultado-inc">Mostrando o
@@ -190,11 +207,13 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-inc" href="#" onclick="incrementacao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-inc" href="#" onclick="incrementacao()">Resultado</a>
                     </div>
                   </div>
                   <div className="p-2 mt-3 bg-white m-3">
-                    <h4 className="cinza-claro p-2 m-3">08 - Realizando Decrementação com Javascript</h4>
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">08 - Realizando Decrementação com Javascript</h4>
+                    </div>
                     <div className="card m-3">
                       <div className="card-body">
                         <p className>Exemplo de uma decrementação de 5 = <strong id="resultado-dec">Mostrando o
@@ -204,7 +223,7 @@ export default function aula05(){
                       </div>
                     </div>
                     <div className="text-center">
-                      <a className="botao" id="confirmado-dec" href="#" onclick="decrementacao()">Resultado</a>
+                      <a className={styleBotao.botao} id="confirmado-dec" href="#" onclick="decrementacao()">Resultado</a>
                     </div>
                   </div>
                 </div>
