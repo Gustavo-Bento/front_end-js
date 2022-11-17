@@ -116,14 +116,12 @@ export default function aula04(){
               <div className="container mt-5">
                 <div className="row">
                   <div className="col-lg-4">
-                    <div className={styleEstilo.cinzaEscuro}>
-                      <h4 className="p-2 m-3">
-                        <div className={styleEstilo.cinzaClaro}>
-                          <i className="	fa fa-check-square" />
-                          BootStrap 3
-                        </div>
-                      </h4>
-                    </div>
+                    <h4 className="p-2 m-3">
+                      <div className={styleEstilo.cinzaClaro}>
+                        <i className="	fa fa-check-square" />
+                        BootStrap 3
+                      </div>
+                    </h4>
                     <div className="card m-3">
                       <div className="card-body">
                         <ul>

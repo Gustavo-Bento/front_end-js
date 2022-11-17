@@ -13,9 +13,9 @@ export default function aulas() {
         <title>Curso de Desenvolvimento Web</title>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
         <div className={[styleEstilo.container, styleEstilo.body].join(" ")}>
-          <div className={[styleEstilo.cinza, styleEstilo.container, styleEstilo.arredondar].join(" ")}>
+          <div className={[styleEstilo.conteudo, styleEstilo.cinza, styleEstilo.arredondar].join(" ")}>
             <Link href="microcamp.com.br" className={styleEstilo.cinza}>
-              <img src="/logo.jpg" alt="Logo Microcamp" className={[styleEstilo.img, styleEstilo.cinza, styleEstilo.arredondar]}/>
+              <img src="/logo.jpg" alt="Logo Microcamp" className={[styleEstilo.cinza, styleEstilo.arredondar,styleEstilo.img].join(" ")}/>
             </Link>
             <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")}>Bem vindo ao Curso de Programação! 💻</h1>
             <p className={[styleEstilo.cinzaEscuro, styleEstilo.p].join(" ")}>Clique na aula que deseja:</p>
