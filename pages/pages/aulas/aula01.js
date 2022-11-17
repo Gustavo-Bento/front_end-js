@@ -2,7 +2,6 @@ import Link from 'next/link'
 import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
-import styleTab from '../../../styles/tabela-clara.module.css'
 
 export default function aula01(){
     return(
@@ -18,7 +17,7 @@ export default function aula01(){
         <header>
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
-              <ul className="navbar-nav container ">
+              <ul className="navbar-nav container">
                 <li className="nav-item">
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
@@ -94,7 +93,48 @@ export default function aula01(){
           </div>
           <div className="col-lg-9">
             <article className={styleLista.article}>
-
+              <div className={styleEstilo.cinzaEscuro}>
+                <h3 className="text-white p-2 text-center m-3">HTML 5</h3>
+              </div>
+              <div className="card m-3">
+                <div className="card-body">
+                  <ul>
+                    <li>HTML significa Hyper Text Markup Language</li>
+                    <li>HTML é a linguagem de marcação padrão para criar páginas da Web</li>
+                    <li>HTML descreve a estrutura de uma página da Web</li>
+                    <li>HTML consiste em uma série de elementos</li>
+                    <li>Elementos HTML informam ao navegador como exibir o conteúdo</li>
+                    <li>Elementos HTML rotulam partes do conteúdo como "este é um título", "este é um parágrafo", "este é um
+                      link", etc.</li>
+                  </ul>
+                </div>
+              </div>
+              <div className={styleEstilo.cinzaEscuro}>
+                <h3 className="text-white p-2 text-center m-3">CSS 3</h3>
+              </div>
+              <div className="card m-3">
+                <div className="card-body">
+                  <ul>
+                    <li>CSS significa Cascading Style Sheets</li>
+                    <li>CSS descreve como os elementos HTML devem ser exibidos na tela, papel ou em outra mídia</li>
+                    <li>CSS economiza muito trabalho. Ele pode controlar o layout de várias páginas da web de uma só vez
+                    </li>
+                    <li>As folhas de estilo externas são armazenadas em arquivos CSS</li>
+                  </ul>
+                </div>
+              </div>
+              <div className={styleEstilo.cinzaEscuro}>
+                <h3 className="text-white p-2 text-center m-3">GIT</h3>
+              </div>
+              <div className="card m-3">
+                <div className="card-body">
+                  <ul>
+                    <li>Git é um sistema de controle de versão.</li>
+                    <li>O Git ajuda você a acompanhar as alterações de código.</li>
+                    <li>Git é usado para colaborar no código.</li>
+                  </ul>
+                </div>
+              </div>
             </article>
           </div>
         </section>
