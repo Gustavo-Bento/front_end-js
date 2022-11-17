@@ -12,7 +12,7 @@ export default function aulas() {
         <meta name="descripion" content="Playlist das aulas de programação web." />
         <title>Curso de Desenvolvimento Web</title>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
-        <div className={styleEstilo.container}>
+        <div className={[styleEstilo.container, styleEstilo.body].join(" ")}>
           <div className={[styleEstilo.cinza, styleEstilo.container, styleEstilo.arredondar].join(" ")}>
             <Link href="microcamp.com.br" className={styleEstilo.cinza}>
               <img src="/logo.jpg" alt="Logo Microcamp" className={[styleEstilo.img, styleEstilo.cinza, styleEstilo.arredondar]}/>
