@@ -32,7 +32,7 @@ export default function aula01(){
         </header>
         <section className="row">
           <div className="col-lg-3">
-            <div className={styleLista.bg-purple}>
+            <div className={styleLista.bgPurple}>
               <nav className={styleLista.nav}>
                 <ul className="navbar-nav m-3">
                   <li className={styleLista.li}>
