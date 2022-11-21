@@ -72,7 +72,9 @@ export default function aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula06" className={styleBotao.botaoLista}>06</Link>
+                    <Link href="/pages/aulas/aula06">
+                      <div className={styleBotao.botaoLista}>06</div>
+                    </Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Portas Lógicas em JavaScript</td>

@@ -19,7 +19,7 @@ export default function Home() {
             <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")}>Seja bem vindo!</h1>
             <p className={[styleEstilo.cinzaEscuro, styleEstilo.p].join(" ")}  id="altera">Clique em começar para aprender! 👇</p>
             <Link href="/pages/aulas">
-              <div className={styleBotao.botaoLista}>Começar</div>
+              <div className={styleBotao.botao}>Começar</div>
             </Link>
           </div>
         </div>
