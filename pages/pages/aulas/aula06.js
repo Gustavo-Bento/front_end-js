@@ -122,29 +122,29 @@ export default function aula06(){
                         </p>
                       </div>
                       <div className="col-lg-4">
-                        <ul className="navbar-nav">
-                          <li className="nav-item">
+                        <ul className="navbar-nav p-2">
+                          <li className="nav-item m-1">
                             <a href="#1">
                               <div className={styleBotao.botaoLista}>
                                 E - Porta And (&amp;&amp;)
                               </div>
                             </a>
                           </li>
-                          <li className="nav-item">
+                          <li className="nav-item m-1">
                             <a href="#2">
                             <div className={styleBotao.botaoLista}>
                                 Ou - Porta Or (||)
                               </div>
                             </a>
                           </li>
-                          <li className="nav-item">
+                          <li className="nav-item m-1">
                             <a href="#3">
                             <div className={styleBotao.botaoLista}>
                                 Não - Porta Not (!)
                               </div>
                             </a>
                           </li>
-                          <li className="nav-item">
+                          <li className="nav-item m-1">
                             <a href="#4">
                             <div className={styleBotao.botaoLista}>
                                 Exclusiva - Porta XOR (^)
@@ -260,7 +260,46 @@ export default function aula06(){
                             resultado...</b>
                         </p>
                         <div className="text-center">
-                          <a className={styleBotao.botao} id="conf-or" href="#1" onclick="or()">Resultado</a>
+                          <a className={styleBotao.botao} id="conf-or" href="#2" onclick="or()">Resultado</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <div className={styleEstilo.cinza}>
+                          <h4 className="text-white p-2 text-center" id={1}>Porta Lógica Not (Não)</h4>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna falso quando a entrada for verdadeira e retorna verdadeira quando a entrada for falsa. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
+                        <div className="container">
+                          <table className={styleTab.tabelaClara}>
+                            <tbody>
+                              <tr>
+                                <th>
+                                  Entrada A
+                                </th>
+                                <th>
+                                  Saída  R
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>F</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>V</td>
+                              </tr> 
+                            </tbody></table>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>
+                          !((5 &gt;= 3) || (3 != 2)) = <b id="res-not">Mostrando
+                            o
+                            resultado...</b>
+                        </p>
+                        <div className="text-center">
+                          <a className={styleBotao.botao} id="conf-not" href="#3" onclick="not()">Resultado</a>
                         </div>
                       </div>
                     </div>
@@ -314,7 +353,7 @@ export default function aula06(){
                             resultado...</b>
                         </p>
                         <div className="text-center">
-                          <a className={styleBotao.botao} id="conf-xor" href="#1" onclick="xor()">Resultado</a>
+                          <a className={styleBotao.botao} id="conf-xor" href="#4" onclick="xor()">Resultado</a>
                         </div>
                       </div>
                     </div>
