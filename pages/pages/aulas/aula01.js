@@ -24,7 +24,7 @@ export default function aula01(){
                   </Link>
                 </li>
                 <li className="nav-item text-white">
-                  <h4>Aula 01 - Git com HTML e CSS</h4>
+                  <h4 style="text-align:center">Aula 01 - Git com HTML e CSS</h4>
                 </li>
               </ul>
             </div>
