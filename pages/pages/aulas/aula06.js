@@ -33,12 +33,12 @@ export default function aula06(){
           </nav>
         </header>
         <section className="row">
-        <div className="col-lg-3">
+        <div className="col-lg-3 p-3">
             <div className={styleLista.bgPurple}>
               <nav className={styleLista.nav}>
                 <ul className="navbar-nav m-3">
                   <li className={styleLista.li}>
-                    <div className="nav-item m-3">
+                    <div className="nav-item m-1">
                       <Link href="/pages/aulas//aula01">
                         <div className={styleBotao.botaoLista}>
                           Aula 01 - Git com HTML e CSS
@@ -47,7 +47,7 @@ export default function aula06(){
                     </div>
                   </li>
                   <li className={styleLista.li}>
-                    <div className="nav-item m-3">
+                    <div className="nav-item m-1">
                       <Link href="/pages/aulas//aula02">
                         <div className={styleBotao.botaoLista}>
                           Aula 02 - Seletores CSS 3
@@ -56,7 +56,7 @@ export default function aula06(){
                     </div>
                   </li>
                   <li className={styleLista.li}>
-                    <div className="nav-item m-3">
+                    <div className="nav-item m-1">
                       <Link href="/pages/aulas//aula03">
                         <div className={styleBotao.botaoLista}>
                           Aula 03 - Introdução ao JavaScript
@@ -65,7 +65,7 @@ export default function aula06(){
                     </div>
                   </li>
                   <li className={styleLista.li}>
-                    <div className="nav-item m-3">
+                    <div className="nav-item m-1">
                       <Link href="/pages/aulas//aula04">
                         <div className={styleBotao.botaoLista}>
                           Aula 04 - Implementando BootStrap
@@ -74,7 +74,7 @@ export default function aula06(){
                     </div>
                   </li>
                   <li className={styleLista.li}>
-                    <div className="nav-item m-3">
+                    <div className="nav-item m-1">
                       <Link href="/pages/aulas//aula05">
                         <div className={styleBotao.botaoLista}>
                           Aula 05 - Operadores em JavaScript
@@ -83,7 +83,7 @@ export default function aula06(){
                     </div>
                   </li>
                   <li className={styleLista.li}>
-                    <div className="nav-item m-3">
+                    <div className="nav-item m-1">
                       <Link href="/pages/aulas//aula06">
                         <div className={styleBotao.botaoLista}>
                           Aula 06 - Portas Lógicas em JavaScript
@@ -208,8 +208,8 @@ export default function aula06(){
                         </div>
                       </div>
                     </div>
-                    </div>
-                    <div className="col-xl-6">
+                  </div>
+                  <div className="col-xl-6">
                     <div className="card m-3">
                       <div className="card-body">
                         <div className={styleEstilo.cinza}>
@@ -259,6 +259,60 @@ export default function aula06(){
                         </p>
                         <div className="text-center">
                           <a className={styleBotao.botao} id="conf-or" href="#1" onclick="or()">Resultado</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <div className={styleEstilo.cinza}>
+                          <h4 className="text-white p-2 text-center" id={1}>Porta Lógica Xor (Exclusiva)</h4>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna verdadeiro somente quando uma das entradas
+                          for verdadeira e a outra for falsas. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
+                        <div className="container">
+                          <table className={styleTab.tabelaClara}>
+                            <tbody><tr>
+                                <th>
+                                  Entrada A
+                                </th>
+                                <th>
+                                  Entrada B
+                                </th>
+                                <th>
+                                  Saída  R
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>F</td>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>F</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>F</td>
+                                <td>F</td>
+                              </tr>
+                            </tbody></table>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>
+                          ((5 &gt;= 3) ^ (3 != 2)) = <b id="res-xor">Mostrando
+                            o
+                            resultado...</b>
+                        </p>
+                        <div className="text-center">
+                          <a className={styleBotao.botao} id="conf-xor" href="#1" onclick="xor()">Resultado</a>
                         </div>
                       </div>
                     </div>
