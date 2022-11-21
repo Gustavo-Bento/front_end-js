@@ -124,32 +124,32 @@ export default function aula06(){
                       <div className="col-lg-4">
                         <ul className="navbar-nav p-2">
                           <li className="nav-item m-1">
-                            <a href="#1">
+                            <Link href="#1">
                               <div className={styleBotao.botaoLista}>
                                 E - Porta And (&amp;&amp;)
                               </div>
-                            </a>
+                            </Link>
                           </li>
                           <li className="nav-item m-1">
-                            <a href="#2">
+                            <Link href="#2">
                             <div className={styleBotao.botaoLista}>
                                 Ou - Porta Or (||)
                               </div>
-                            </a>
+                            </Link>
                           </li>
                           <li className="nav-item m-1">
-                            <a href="#3">
+                            <Link href="#3">
                             <div className={styleBotao.botaoLista}>
                                 Não - Porta Not (!)
                               </div>
-                            </a>
+                            </Link>
                           </li>
                           <li className="nav-item m-1">
-                            <a href="#4">
+                            <Link href="#4">
                             <div className={styleBotao.botaoLista}>
                                 Exclusiva - Porta XOR (^)
                               </div>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
