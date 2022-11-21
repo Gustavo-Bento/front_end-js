@@ -36,7 +36,7 @@ export default function aula05(){
             <div className={styleLista.bgPurple}>
               <div className="p-3">
                 <nav className={styleLista.nav}>
-                  <ul className="navbar-nav m-3">
+                  <ul className="navbar-nav m-1">
                     <li className={styleLista.li}>
                       <div className="nav-item m-1">
                         <Link href="/pages/aulas//aula01">

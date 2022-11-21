@@ -100,7 +100,7 @@ export default function aula03(){
           <div className="col-lg-9">
             <article className={styleLista.article}>
               <i className="fa fa-brands fa-js" />
-              <h3 className="text-white p-2 text-center m-3">
+              <h3 className="text-white p-2 text-center m-1">
                 <div className={styleEstilo.cinzaEscuro}>
                   Exemplo de Alteração em JavaScript
                 </div>
