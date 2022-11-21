@@ -208,6 +208,8 @@ export default function aula06(){
                         </div>
                       </div>
                     </div>
+                    </div>
+                    <div className="col-xl-6">
                     <div className="card m-3">
                       <div className="card-body">
                         <div className={styleEstilo.cinza}>
