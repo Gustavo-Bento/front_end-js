@@ -208,6 +208,58 @@ export default function aula06(){
                         </div>
                       </div>
                     </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <div className={styleEstilo.cinza}>
+                          <h4 className="text-white p-2 text-center" id={1}>Porta Lógica Or (Ou)</h4>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna falso somente quando todas as entradas
+                          forem falsas. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
+                        <div className="container">
+                          <table className={styleTab.tabelaClara}>
+                            <tbody><tr>
+                                <th>
+                                  Entrada A
+                                </th>
+                                <th>
+                                  Entrada B
+                                </th>
+                                <th>
+                                  Saída  R
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>F</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>F</td>
+                                <td>F</td>
+                              </tr>
+                            </tbody></table>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>
+                          ((5 &gt;= 3) || (3 != 2)) = <b id="res-or">Mostrando
+                            o
+                            resultado...</b>
+                        </p>
+                        <div className="text-center">
+                          <a className={styleBotao.botao} id="conf-or" href="#1" onclick="or()">Resultado</a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </article>
