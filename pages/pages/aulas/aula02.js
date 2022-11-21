@@ -18,12 +18,12 @@ export default function aula02(){
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
               <ul className="navbar-nav container">
-                <li className="nav-item">
+                <li className="nav-item m-1">
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                <li className="nav-item text-white">
+                <li className="nav-item text-white m-1">
                   <h4 style={{textAlign: 'center'}}>Aula 02 - Seletores CSS 3</h4>
                 </li>
               </ul>
@@ -31,7 +31,7 @@ export default function aula02(){
           </nav>
         </header>
         <section className="row">
-        <div className="col-lg-3">
+          <div className="col-lg-3">
             <div className={styleLista.bgPurple}>
               <nav className={styleLista.nav}>
                 <ul className="navbar-nav m-3">

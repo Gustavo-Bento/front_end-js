@@ -20,12 +20,12 @@ export default function aula06(){
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
               <ul className="navbar-nav container">
-                <li className="nav-item">
+                <li className="nav-item m-1">
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                <li className="nav-item text-white">
+                <li className="nav-item text-white m-1">
                   <h4 style={{textAlign:'center'}}>Aula 06 - Portas Lógicas em javaScript</h4>
                 </li>
               </ul>
@@ -158,7 +158,9 @@ export default function aula06(){
                   <div className="col-xl-6">
                     <div className="card m-3">
                       <div className="card-body">
-                        <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica And (E)</h4>
+                        <div className={styleEstilo.cinza}>
+                          <h4 className="text-white p-2 text-center" id={1}>Porta Lógica And (E)</h4>
+                        </div>
                         <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna verdadeiro somente quando todas as entradas
                           forem verdadeiras. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
                         <div className="container">
