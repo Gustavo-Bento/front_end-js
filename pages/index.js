@@ -18,7 +18,9 @@ export default function Home() {
             </Link>
             <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")}>Seja bem vindo!</h1>
             <p className={[styleEstilo.cinzaEscuro, styleEstilo.p].join(" ")}  id="altera">Clique em começar para aprender! 👇</p>
-            <Link style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}} href="/pages/aulas">Começar</Link>
+            <Link href="/pages/aulas">
+              <div className={styleBotao.botaoLista}>Começar</div>
+            </Link>
           </div>
         </div>
       </div>

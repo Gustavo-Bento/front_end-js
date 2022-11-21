@@ -27,42 +27,52 @@ export default function aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}} href="/pages/aulas/aula01">01</Link>
+                    <Link href="/pages/aulas/aula01">
+                      <div className={styleBotao.botaoLista}>01</div>
+                    </Link>
                   </td>
                   <td>HTML</td>
                   <td>Git com HTML e CSS</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}} href="/pages/aulas/aula02">02</Link>
+                    <Link href="/pages/aulas/aula02">
+                      <div className={styleBotao.botaoLista}>02</div>
+                    </Link>
                   </td>
                   <td>CSS3</td>
                   <td>Seletores CSS 3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}} href="/pages/aulas/aula03">03</Link>
+                    <Link href="/pages/aulas/aula03">
+                      <div className={styleBotao.botaoLista}>03</div>
+                    </Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Introdução ao JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula04" style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}}>04</Link>
+                    <Link href="/pages/aulas/aula04">
+                      <div className={styleBotao.botaoLista}>04</div>
+                    </Link>
                   </td>
                   <td>BootStrap</td>
                   <td>Implementando Bootstrap</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula05" style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}}>05</Link>
+                    <Link href="/pages/aulas/aula05">
+                      <div className={styleBotao.botaoLista}>05</div>
+                    </Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Operadores em JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula06" style={{margin: 0, fontSize: '14pt', textDecoration: 'none', padding: '5px 15px', backgroundColor: '#08ba94', color: '#fff', borderRadius: '20px'}}>06</Link>
+                    <Link href="/pages/aulas/aula06" className={styleBotao.botaoLista}>06</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Portas Lógicas em JavaScript</td>
