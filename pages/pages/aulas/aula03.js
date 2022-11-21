@@ -26,7 +26,7 @@ export default function aula03(){
                   </Link>
                 </li>
                 <li className="nav-item text-white">
-                  <h4 style="text-align:center">Aula 03 - Introdução ao JavaScript</h4>
+                  <h4 style={{textAlign: 'center'}}>Aula 03 - Introdução ao JavaScript</h4>
                 </li>
               </ul>
             </div>

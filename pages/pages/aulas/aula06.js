@@ -26,7 +26,7 @@ export default function aula06(){
                   </Link>
                 </li>
                 <li className="nav-item text-white">
-                  <h4 style="text-align:center">Aula 06 - Portas Lógicas em javaScript</h4>
+                  <h4 style={{textAlign:'center'}}>Aula 06 - Portas Lógicas em javaScript</h4>
                 </li>
               </ul>
             </div>

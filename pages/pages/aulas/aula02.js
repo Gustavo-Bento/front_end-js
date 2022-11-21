@@ -24,7 +24,7 @@ export default function aula02(){
                   </Link>
                 </li>
                 <li className="nav-item text-white">
-                  <h4 style="text-align:center">Aula 02 - Seletores CSS 3</h4>
+                  <h4 style={{textAlign: 'center'}}>Aula 02 - Seletores CSS 3</h4>
                 </li>
               </ul>
             </div>
