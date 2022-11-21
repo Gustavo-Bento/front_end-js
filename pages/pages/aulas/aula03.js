@@ -25,7 +25,7 @@ export default function aula03(){
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                <li className="nav-item text-white m-1">
+                <li className="nav-item text-white m-2">
                   <h4 style={{textAlign: 'center'}}>Aula 03 - Introdução ao JavaScript</h4>
                 </li>
               </ul>

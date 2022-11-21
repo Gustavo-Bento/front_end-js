@@ -20,12 +20,12 @@ export default function aula06(){
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
               <ul className="navbar-nav container">
-                <li className="nav-item m-4">
+                <li className="nav-item m-1">
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                <li className="nav-item text-white m-4">
+                <li className="nav-item text-white m-2">
                   <h4 style={{textAlign:'center'}}>Aula 06 - Portas Lógicas em javaScript</h4>
                 </li>
               </ul>

@@ -23,7 +23,7 @@ export default function aula02(){
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
-                <li className="nav-item text-white m-1">
+                <li className="nav-item text-white m-2">
                   <h4 style={{textAlign: 'center'}}>Aula 02 - Seletores CSS 3</h4>
                 </li>
               </ul>
